@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  padding: 20px;
+  background-color: rgb(26, 24, 24);
+  font-size: 10px;
+}
+body {
+  display: block;
+  margin: auto;
+  font-family: century gothic;
+  background-color: rgb(26, 24, 24);
+  border-radius: 5px;
+  max-width: 900px;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-family: "Arimo", sans-serif;
+  font-size: 8rem;
+  color: #f5a6b9;
+  text-align: center;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 376px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #f5a6b9;
+  text-align: center;
+  margin-top: 6rem;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 376px) {
+  h2 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+  }
+}
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.figure {
+  padding: 2rem;
+}
+.border-image {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+figcaption {
+  text-align: center;
+  font-size: 2.3rem;
+}
+@media (max-width: 768px) {
+  figcaption {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  figcaption {
+    font-size: 1.5rem;
+  }
+}
+.about {
+  display: block;
+  margin: auto;
+  max-width: 800px;
+  padding: 2rem;
+}
+.about p {
+  margin-top: 2rem;
+  color: white;
+  text-align: justify;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .about p {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .about p {
+    font-size: 1.4rem;
+  }
+}
+.timeline-section {
+  text-align: center;
+  padding: 1.5rem;
+}
+@media (max-width: 500px) {
+  .timeline-section {
+    padding: 0;
+  }
+}
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+@media (max-width: 650px) {
+  .column {
+    flex: 80%;
+    max-width: 80%;
+  }
+}
+.column img {
+  vertical-align: middle;
+}
+.row {
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.timeline {
+  font-size: 1.8rem;
+  background-color: rgb(255, 255, 255);
+  margin: 20px 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 500px) {
+  .timeline {
+    font-size: 1.5rem;
+  }
+}
+.timeline-title {
+  line-height: 4rem;
+  font-size: 2.5rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  p.timeline-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  p.timeline-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 376px) {
+  p.timeline-title {
+    font-size: 1.5rem;
+  }
+  .timeline-title {
+    line-height: 25px;
+  }
+}
+footer {
+  padding: 2rem;
+  border-top: white solid 3px;
+}
+@media (max-width: 500px) {
+  footer p {
+    font-size: 1.1rem;
+  }
+  a {
+    font-size: 1.1rem;
+  }
+  a:hover {
+    font-size: 1.1rem;
+  }
+}
+.sosmed {
+  display: flex;
+  justify-content: center;
+  margin-inline: 3rem;
+  margin-top: 2rem;
+}
+.sosmed a {
+  margin-inline: 1rem;
+}
+.sosmed:hover {
+  color: red;
+}
